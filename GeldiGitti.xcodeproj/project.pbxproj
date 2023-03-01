@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C23EFA8029A1321F0078DB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EFA7F29A1321F0078DB34 /* AppDelegate.swift */; };
+		C23EFA8229A1321F0078DB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EFA8129A1321F0078DB34 /* SceneDelegate.swift */; };
+		C23EFA8429A1321F0078DB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EFA8329A1321F0078DB34 /* ViewController.swift */; };
+		C23EFA8729A1321F0078DB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23EFA8529A1321F0078DB34 /* Main.storyboard */; };
+		C23EFA8929A132210078DB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23EFA8829A132210078DB34 /* Assets.xcassets */; };
+		C23EFA8C29A132210078DB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23EFA8A29A132210078DB34 /* LaunchScreen.storyboard */; };
+		C23EFA9729A132210078DB34 /* GeldiGittiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EFA9629A132210078DB34 /* GeldiGittiTests.swift */; };
+		C23EFAA129A132210078DB34 /* GeldiGittiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EFAA029A132210078DB34 /* GeldiGittiUITests.swift */; };
+		C23EFAA329A132210078DB34 /* GeldiGittiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23EFAA229A132210078DB34 /* GeldiGittiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C23EFA9329A132210078DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23EFA7429A1321F0078DB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23EFA7B29A1321F0078DB34;
+			remoteInfo = GeldiGitti;
+		};
+		C23EFA9D29A132210078DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C23EFA7429A1321F0078DB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C23EFA7B29A1321F0078DB34;
+			remoteInfo = GeldiGitti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C23EFA7C29A1321F0078DB34 /* GeldiGitti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeldiGitti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23EFA7F29A1321F0078DB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C23EFA8129A1321F0078DB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C23EFA8329A1321F0078DB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C23EFA8629A1321F0078DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C23EFA8829A132210078DB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C23EFA8B29A132210078DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C23EFA8D29A132210078DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23EFA9229A132210078DB34 /* GeldiGittiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeldiGittiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23EFA9629A132210078DB34 /* GeldiGittiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldiGittiTests.swift; sourceTree = "<group>"; };
+		C23EFA9C29A132210078DB34 /* GeldiGittiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeldiGittiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23EFAA029A132210078DB34 /* GeldiGittiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldiGittiUITests.swift; sourceTree = "<group>"; };
+		C23EFAA229A132210078DB34 /* GeldiGittiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeldiGittiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C23EFA7929A1321F0078DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23EFA8F29A132210078DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23EFA9929A132210078DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C23EFA7329A1321F0078DB34 = {
+			isa = PBXGroup;
+			children = (
+				C23EFA7E29A1321F0078DB34 /* GeldiGitti */,
+				C23EFA9529A132210078DB34 /* GeldiGittiTests */,
+				C23EFA9F29A132210078DB34 /* GeldiGittiUITests */,
+				C23EFA7D29A1321F0078DB34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C23EFA7D29A1321F0078DB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C23EFA7C29A1321F0078DB34 /* GeldiGitti.app */,
+				C23EFA9229A132210078DB34 /* GeldiGittiTests.xctest */,
+				C23EFA9C29A132210078DB34 /* GeldiGittiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C23EFA7E29A1321F0078DB34 /* GeldiGitti */ = {
+			isa = PBXGroup;
+			children = (
+				C23EFA7F29A1321F0078DB34 /* AppDelegate.swift */,
+				C23EFA8129A1321F0078DB34 /* SceneDelegate.swift */,
+				C23EFA8329A1321F0078DB34 /* ViewController.swift */,
+				C23EFA8529A1321F0078DB34 /* Main.storyboard */,
+				C23EFA8829A132210078DB34 /* Assets.xcassets */,
+				C23EFA8A29A132210078DB34 /* LaunchScreen.storyboard */,
+				C23EFA8D29A132210078DB34 /* Info.plist */,
+			);
+			path = GeldiGitti;
+			sourceTree = "<group>";
+		};
+		C23EFA9529A132210078DB34 /* GeldiGittiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C23EFA9629A132210078DB34 /* GeldiGittiTests.swift */,
+			);
+			path = GeldiGittiTests;
+			sourceTree = "<group>";
+		};
+		C23EFA9F29A132210078DB34 /* GeldiGittiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C23EFAA029A132210078DB34 /* GeldiGittiUITests.swift */,
+				C23EFAA229A132210078DB34 /* GeldiGittiUITestsLaunchTests.swift */,
+			);
+			path = GeldiGittiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C23EFA7B29A1321F0078DB34 /* GeldiGitti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23EFAA629A132210078DB34 /* Build configuration list for PBXNativeTarget "GeldiGitti" */;
+			buildPhases = (
+				C23EFA7829A1321F0078DB34 /* Sources */,
+				C23EFA7929A1321F0078DB34 /* Frameworks */,
+				C23EFA7A29A1321F0078DB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeldiGitti;
+			productName = GeldiGitti;
+			productReference = C23EFA7C29A1321F0078DB34 /* GeldiGitti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C23EFA9129A132210078DB34 /* GeldiGittiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23EFAA929A132210078DB34 /* Build configuration list for PBXNativeTarget "GeldiGittiTests" */;
+			buildPhases = (
+				C23EFA8E29A132210078DB34 /* Sources */,
+				C23EFA8F29A132210078DB34 /* Frameworks */,
+				C23EFA9029A132210078DB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23EFA9429A132210078DB34 /* PBXTargetDependency */,
+			);
+			name = GeldiGittiTests;
+			productName = GeldiGittiTests;
+			productReference = C23EFA9229A132210078DB34 /* GeldiGittiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C23EFA9B29A132210078DB34 /* GeldiGittiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C23EFAAC29A132210078DB34 /* Build configuration list for PBXNativeTarget "GeldiGittiUITests" */;
+			buildPhases = (
+				C23EFA9829A132210078DB34 /* Sources */,
+				C23EFA9929A132210078DB34 /* Frameworks */,
+				C23EFA9A29A132210078DB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C23EFA9E29A132210078DB34 /* PBXTargetDependency */,
+			);
+			name = GeldiGittiUITests;
+			productName = GeldiGittiUITests;
+			productReference = C23EFA9C29A132210078DB34 /* GeldiGittiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C23EFA7429A1321F0078DB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C23EFA7B29A1321F0078DB34 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C23EFA9129A132210078DB34 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C23EFA7B29A1321F0078DB34;
+					};
+					C23EFA9B29A132210078DB34 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C23EFA7B29A1321F0078DB34;
+					};
+				};
+			};
+			buildConfigurationList = C23EFA7729A1321F0078DB34 /* Build configuration list for PBXProject "GeldiGitti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C23EFA7329A1321F0078DB34;
+			productRefGroup = C23EFA7D29A1321F0078DB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C23EFA7B29A1321F0078DB34 /* GeldiGitti */,
+				C23EFA9129A132210078DB34 /* GeldiGittiTests */,
+				C23EFA9B29A132210078DB34 /* GeldiGittiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C23EFA7A29A1321F0078DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23EFA8C29A132210078DB34 /* LaunchScreen.storyboard in Resources */,
+				C23EFA8929A132210078DB34 /* Assets.xcassets in Resources */,
+				C23EFA8729A1321F0078DB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23EFA9029A132210078DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23EFA9A29A132210078DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23EFA7829A1321F0078DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23EFA8429A1321F0078DB34 /* ViewController.swift in Sources */,
+				C23EFA8029A1321F0078DB34 /* AppDelegate.swift in Sources */,
+				C23EFA8229A1321F0078DB34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23EFA8E29A132210078DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23EFA9729A132210078DB34 /* GeldiGittiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23EFA9829A132210078DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23EFAA329A132210078DB34 /* GeldiGittiUITestsLaunchTests.swift in Sources */,
+				C23EFAA129A132210078DB34 /* GeldiGittiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C23EFA9429A132210078DB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23EFA7B29A1321F0078DB34 /* GeldiGitti */;
+			targetProxy = C23EFA9329A132210078DB34 /* PBXContainerItemProxy */;
+		};
+		C23EFA9E29A132210078DB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C23EFA7B29A1321F0078DB34 /* GeldiGitti */;
+			targetProxy = C23EFA9D29A132210078DB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C23EFA8529A1321F0078DB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23EFA8629A1321F0078DB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C23EFA8A29A132210078DB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C23EFA8B29A132210078DB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C23EFAA429A132210078DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C23EFAA529A132210078DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C23EFAA729A132210078DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL6K4YQD2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeldiGitti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toker.GeldiGitti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C23EFAA829A132210078DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL6K4YQD2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeldiGitti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toker.GeldiGitti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C23EFAAA29A132210078DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL6K4YQD2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toker.GeldiGittiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeldiGitti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeldiGitti";
+			};
+			name = Debug;
+		};
+		C23EFAAB29A132210078DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL6K4YQD2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toker.GeldiGittiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeldiGitti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeldiGitti";
+			};
+			name = Release;
+		};
+		C23EFAAD29A132210078DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL6K4YQD2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toker.GeldiGittiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeldiGitti;
+			};
+			name = Debug;
+		};
+		C23EFAAE29A132210078DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL6K4YQD2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toker.GeldiGittiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeldiGitti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C23EFA7729A1321F0078DB34 /* Build configuration list for PBXProject "GeldiGitti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23EFAA429A132210078DB34 /* Debug */,
+				C23EFAA529A132210078DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23EFAA629A132210078DB34 /* Build configuration list for PBXNativeTarget "GeldiGitti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23EFAA729A132210078DB34 /* Debug */,
+				C23EFAA829A132210078DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23EFAA929A132210078DB34 /* Build configuration list for PBXNativeTarget "GeldiGittiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23EFAAA29A132210078DB34 /* Debug */,
+				C23EFAAB29A132210078DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C23EFAAC29A132210078DB34 /* Build configuration list for PBXNativeTarget "GeldiGittiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23EFAAD29A132210078DB34 /* Debug */,
+				C23EFAAE29A132210078DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C23EFA7429A1321F0078DB34 /* Project object */;
+}
